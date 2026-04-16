@@ -1,0 +1,4 @@
+CREATE users {name: "Juan", age: 20}
+READ users WHERE age = 20
+UPDATE users SET age = 21 WHERE name = "Juan"
+DELETE users WHERE age = 21
