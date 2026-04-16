@@ -1,4 +1,4 @@
-# Parcial Lenguajes Formales y Compiladores
+# Parcial Lenguajes de Programacion y Transduccion #2
 
 Este repositorio contiene la solución completa del parcial, donde se abordan conceptos fundamentales de **gramáticas formales, análisis sintáctico, parsers y herramientas de compilación**.
 
