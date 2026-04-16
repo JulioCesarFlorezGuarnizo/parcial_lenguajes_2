@@ -109,7 +109,7 @@ Se implementó un programa en Python que:
 python3 ll3_verificador_punto2.py
 ```
 
-## 📚 Teoría
+##  Teoría
 
 Una gramática es LL(1) si:
 
@@ -164,7 +164,7 @@ Eficiencia vs Generalidad
 
 ---
 
-# 🔹Punto 5 — Calculadora Booleana (YACC / FLEX)
+# Punto 5 — Calculadora Booleana (YACC / FLEX)
 
 ## Descripción
 
@@ -185,7 +185,7 @@ Soporta:
 * `calc.y`
 * `calc.l`
 
-## ▶️Compilación
+## Compilación
 
 ```bash
 bison -d calc.y
@@ -193,7 +193,7 @@ flex calc.l
 gcc calc.tab.c lex.yy.c -o calc
 ```
 
-## ▶️Ejecución
+## Ejecución
 
 ```bash
 ./calc
@@ -220,35 +220,6 @@ NOT > AND > OR
 ```
 
 para evitar ambigüedad en la gramática.
-
----
-
-# Conceptos clave aplicados
-
-* Gramáticas libres de contexto (CFG)
-* FIRST y FOLLOW
-* Parsers LL y LALR
-* Algoritmo CYK
-* Forma Normal de Chomsky
-* Análisis léxico y sintáctico
-* Evaluación semántica
-
----
-
-#  Conclusión general
-
-El proyecto demuestra la aplicación práctica de los conceptos fundamentales de los compiladores:
-
-* Diseño de lenguajes formales
-* Construcción de parsers
-* Análisis de eficiencia
-* Uso de herramientas industriales (ANTLR, Flex, Bison)
-
-Se evidencia que:
-
-* Los parsers predictivos son eficientes pero restringidos
-* Los algoritmos generales como CYK son más flexibles pero costosos
-* Las herramientas como YACC permiten construir analizadores robustos de manera sistemática
 
 ---
 
